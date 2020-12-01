@@ -1,3 +1,5 @@
+Score: 3
+
 Very organized with the comments on train_test_split, each step of the function
 you leave a quick description 
 
