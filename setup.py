@@ -13,11 +13,11 @@ with open("readme.md", "r") as fh:
 
 setuptools.setup(
     name='lambdata-bobbriksz',
-    version='0.0.2',
+    version='0.0.3',
     author='bobbriksz',
     description=LONG_DESCRIPTION,
     long_description_content='text/markdown',
-    url ="https://github.com/BobBriksz/lambdata-bobbriks",
+    url ="https://github.com/BobBriksz/lambdata-bobbriksz",
     packages= setuptools.find_packages(), #how we want to find our require packages
     python_requires=">=3.6", #what versions of python we are compatible with
     install_requires=REQUIRED,

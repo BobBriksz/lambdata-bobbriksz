@@ -18,12 +18,12 @@ import numpy as np
 
 def train_test_split(df, frac):
     """"Train_test_split of data frame """""
-    #TODO -implement train test split
+#    TODO -implement train test split
 
-    arr_rand = np.random.rand(df.shape[0]) #randomly arrange the rows on the index of the data frame
-    split = arr_rand < np.percentile(arr_rand, (frac*100))  #create a percentile cutoff for the split
-    df_test = df[split] #upper half of the split
-    df_train = df[~split] #lower half of split
+    arr_rand = np.random.rand(df.shape[0])  #randomly arrange the rows on the index of the data frame
+    split = arr_rand < np.percentile(arr_rand, (frac*100))   #create a percentile cutoff for the split
+    df_test = df[split]  #upper half of the split
+    df_train = df[~split]  #lower half of split
     return df_test, df_train
 
 
